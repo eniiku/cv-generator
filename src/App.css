@@ -4,6 +4,14 @@
     --btn-color: #F8E9A1;
 }
 
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #ABD0E6;
+}
+
 header {
     display: flex;
     justify-content: space-between;
