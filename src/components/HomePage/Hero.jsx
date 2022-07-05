@@ -12,7 +12,7 @@ const Hero = () => {
         <button>get started</button>
       </div>
       <div className="hero-img">some image lol</div>
-      <div className="feedback">feedback</div>
+      <button className="feedback">feedback</button>
     </main>
   );
 };

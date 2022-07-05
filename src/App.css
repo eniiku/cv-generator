@@ -1,7 +1,8 @@
 :root {
     --primary-color: #374785;
     --accent-color: #ffffff;
-    --btn-color: #F8E9A1;
+    --primary-btn-color-alpha: #F8E9A1;
+    --primary-btn-color-beta: #F76C6C;
 }
 
 html,
@@ -10,6 +11,7 @@ body {
     margin: 0;
     padding: 0;
     background: #ABD0E6;
+    font-family: Poppins, sans-serif;
 }
 
 button:hover {
@@ -27,7 +29,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1em 0;
+    padding: 1.6em 0;
 }
 
 .header-logo {
@@ -73,7 +75,7 @@ main {
 }
 
 main button {
-    background: var(--btn-color);
+    background: var(--primary-btn-color-alpha);
     color: var(--primary-color);
     padding: .6em 1.6em;
     text-transform: uppercase;
@@ -85,6 +87,10 @@ main button {
 }
 
 .feedback {
+    background: var(--primary-btn-color-beta);
+    color: var(--accent-color);
+    font-size: .8em;
+    font-weight: 700;
     position: fixed;
     right: 0;
     bottom: 3em;
@@ -93,6 +99,7 @@ main button {
 footer {
     text-transform: capitalize;
     text-align: center;
-    font-size: .8em;
-    color: var(--accent-color);
+    font-size: .7em;
+    padding: .5em 0;
+    color: var(--primary-color);
 }
