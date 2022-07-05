@@ -2,9 +2,9 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <div>
+    <footer>
       created by David Enikuomehin <a href="github.com/tekyuma">icon</a>
-    </div>
+    </footer>
   );
 };
 
