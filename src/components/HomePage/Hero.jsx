@@ -3,9 +3,9 @@ import React from 'react';
 const Hero = () => {
   return (
     <main>
-      <div className="hero-text">
-        <h1 className="hero-text-heading">the best online cv generator</h1>
-        <p className="hero-text-subheading">
+      <div className="hero-main">
+        <h1 className="hero-main-heading">the best online cv generator</h1>
+        <p className="hero-main-subheading">
           Leave it to us to build you a stella resume, so you can land that
           dream job!🚀
         </p>

@@ -12,10 +12,22 @@ body {
     background: #ABD0E6;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
+.homepage {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    padding: 0 7em;
+}
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 1em 0;
 }
 
 .header-logo {
@@ -26,6 +38,10 @@ header {
 .header-logo strong:first-of-type {
     color: var(--accent-color);
     border-bottom: 3px solid var(--primary-color);
+}
+
+.header-logo:hover {
+    cursor: pointer;
 }
 
 .header-links a{
@@ -40,15 +56,20 @@ main {
     align-items: center;    
 }
 
-.hero-text-heading {
+.hero-main-heading {
     text-transform: uppercase;
     color: var(--primary-color);
     font-size: 3rem;
+    width: 30ch;
+    margin: 0;
 }
 
-.hero-text-subheading {
+.hero-main-subheading {
     color: var(--accent-color);
     font-size: 1.2em;
+    width: 45ch;
+    margin: 0;
+    margin-top: .5em;
 }
 
 main button {
@@ -59,7 +80,7 @@ main button {
     font-weight: 700;
     font-size: 1.1em;
     margin-top: 3em;
-    margin-left: 6em;
+    margin-left: 7em;
     border: none;
 }
 
