@@ -1,6 +1,7 @@
 :root {
     --primary-color: #374785;
     --accent-color: #ffffff;
+    --btn-color: #F8E9A1;
 }
 
 header {
@@ -42,6 +43,18 @@ main {
     font-size: 1.2em;
 }
 
+main button {
+    background: var(--btn-color);
+    color: var(--primary-color);
+    padding: .6em 1.6em;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.1em;
+    margin-top: 3em;
+    margin-left: 6em;
+    border: none;
+}
+
 .feedback {
     position: fixed;
     right: 0;
@@ -49,6 +62,7 @@ main {
 }
 
 footer {
+    text-transform: capitalize;
     text-align: center;
     font-size: .8em;
     color: var(--accent-color);

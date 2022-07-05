@@ -9,6 +9,7 @@ const Hero = () => {
           Leave it to us to build you a stella resume, so you can land that
           dream job!🚀
         </p>
+        <button>get started</button>
       </div>
       <div className="hero-img">some image lol</div>
       <div className="feedback">feedback</div>
