@@ -102,5 +102,13 @@ footer {
     font-size: .7em;
     padding: .5em 0;
     color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .3em;
 }
 
+footer img{
+    width: 1.1em;
+    height: 1.1em;
+}

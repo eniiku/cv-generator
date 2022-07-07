@@ -1,4 +1,7 @@
 import React from 'react';
+import github from '../../assets/github.svg';
+import linkedin from '../../assets/linkedin.svg';
+import twitter from '../../assets/twitter.svg';
 
 const Header = () => {
   return (
@@ -9,22 +12,13 @@ const Header = () => {
       </div>
       <div className="header-links">
         <a href="linkedin.com">
-          <img
-            src="../assets/linkedin.svg"
-            alt="creator of website's Linkedin page"
-          />
+          <img src={linkedin} alt="creator of website's Linkedin page" />
         </a>
         <a href="twitter.com">
-          <img
-            src="../assets/twitter.svg"
-            alt="creator of website's Twitter page"
-          />
+          <img src={twitter} alt="creator of website's Twitter page" />
         </a>
         <a href="github.com">
-          <img
-            src="../assets/github.svg"
-            alt="creator of website's Github page"
-          />
+          <img src={github} alt="creator of website's Github page" />
         </a>
       </div>
     </header>
