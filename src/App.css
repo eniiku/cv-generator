@@ -23,6 +23,10 @@ button:hover {
     cursor: pointer;
 }
 
+a {
+    text-decoration: none;
+}
+
 #root {
     height: 100vh;
     display: grid;
@@ -92,11 +96,19 @@ main button {
     border: none;
 }
 
-.templates {
+.template h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 3.4em;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.template-card {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 3em;
-    margin: 5em auto;
+    margin: 2.6em auto;
 }
 
 .cards {
