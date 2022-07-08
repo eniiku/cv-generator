@@ -9,14 +9,14 @@ import './App.css';
 const App = () => {
   return (
     <Router>
-      <div>
+      <>
         <Header />
         <Routes>
-          <Route path="/" elememt={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/templates" element={<Template />} />
         </Routes>
         <Footer />
-      </div>
+      </>
     </Router>
   );
 };
