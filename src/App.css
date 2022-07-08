@@ -5,6 +5,11 @@
     --primary-btn-color-beta: #F76C6C;
 }
 
+* {
+    margin: 0%;
+    padding: 0;
+}
+
 html,
 body {
     height: 100%;
@@ -18,11 +23,16 @@ button:hover {
     cursor: pointer;
 }
 
-.homepage {
+#root {
     height: 100vh;
     display: grid;
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: auto 1fr;
     padding: 0 7em;
+    position: relative;
+}
+
+.homepage {
+    margin: auto 0; 
 }
 
 header {
@@ -55,7 +65,7 @@ header {
 main {
     display: flex;
     justify-content: space-between;
-    align-items: center;    
+    align-items: center;   
 }
 
 .hero-main-heading {
@@ -91,10 +101,10 @@ main button {
     color: var(--accent-color);
     font-size: .8em;
     font-weight: 700;
-    position: fixed;
+    position: absolute;
     right: 0;
     bottom: 3em;
-    transform: rotate(90deg);
+    transform: rotate(-90deg);
 }
 
 footer {

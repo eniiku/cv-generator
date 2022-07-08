@@ -1,7 +1,7 @@
 import React from 'react';
-import github from '../../assets/github.svg';
-import linkedin from '../../assets/linkedin.svg';
-import twitter from '../../assets/twitter.svg';
+import github from './assets/github.svg';
+import linkedin from './assets/linkedin.svg';
+import twitter from './assets/twitter.svg';
 
 const Header = () => {
   return (
@@ -10,7 +10,7 @@ const Header = () => {
         <strong>tek</strong>
         <strong>company</strong>
       </div>
-      <div className="header-links">
+      <nav className="header-links">
         <a href="linkedin.com">
           <img src={linkedin} alt="creator of website's Linkedin page" />
         </a>
@@ -20,7 +20,7 @@ const Header = () => {
         <a href="github.com">
           <img src={github} alt="creator of website's Github page" />
         </a>
-      </div>
+      </nav>
     </header>
   );
 };
