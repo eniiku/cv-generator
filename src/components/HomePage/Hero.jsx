@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
@@ -9,7 +10,9 @@ const Hero = () => {
           Leave it to us to build you a stella resume, so you can land that
           dream job!🚀
         </p>
-        <button>get started</button>
+        <Link to="/templates">
+          <button>get started</button>
+        </Link>
       </div>
       <div className="hero-img">some image lol</div>
       <button className="feedback">feedback</button>

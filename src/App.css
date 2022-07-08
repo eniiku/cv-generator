@@ -114,7 +114,7 @@ main button {
     position: absolute;
     right: 0;
     bottom: 3em;
-    transform: rotate(-90deg);
+    /* transform: rotate(-90deg); */
 }
 
 footer {
